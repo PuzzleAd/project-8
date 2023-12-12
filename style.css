@@ -11,6 +11,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .heading_div{
     width: 81%;
@@ -39,12 +40,9 @@ body{
 }
 .left_side_text{
     color: #FFF;
-    font-family: Helvetica Now Display;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 150%; /* 24px */
-    letter-spacing: -0.176px;
 }
 .left_side_button{
     height: 100%;
@@ -60,12 +58,9 @@ body{
 }
 .left_side_button > p{
     color: #FFF;
-    font-family: Helvetica Now Display;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 150%; /* 24px */
-    letter-spacing: -0.176px;
 }
 .heading_right_side{
     height: 100%;
@@ -80,13 +75,10 @@ body{
     background: var(--Amarelo-Rock, #FCAF17);
     color: var(--Rectangle-1, #020202);
     text-align: center;
-    font-family: Helvetica Now Display;
     font-size: 20px;
     font-style: normal;
-    font-weight: 500;
-    line-height: 150%; /* 30px */
-    letter-spacing: -0.22px;
-    border: none
+    font-weight: 500; 
+    border: none;
 }
 .right_side_icons{
     display: flex;
@@ -107,12 +99,9 @@ body{
 }
 .four_image_heading > h1{
     color: var(--Branco-Rock, #F6F6F6);
-    font-family: Helvetica Now Display;
     font-size: 48px;
     font-style: normal;
     font-weight: 800;
-    line-height: 150%; /* 72px */
-    letter-spacing: -0.528px;
 }
 .pc_console{
     display: flex;
@@ -123,12 +112,9 @@ body{
     border-radius: 100px;
     background: #606060;
     color: var(--Branco-Rock, #F6F6F6);
-    font-family: Helvetica Now Display;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 150%; /* 24px */
-    letter-spacing: -0.176px;
     border: none;
 }
 .pc{
@@ -158,12 +144,9 @@ body{
     background: #FCAF17;
     color: var(--Rectangle-1, #020202);
     text-align: center;
-    font-family: Helvetica Now Display;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
-    line-height: 150%; /* 30px */
-    letter-spacing: -0.22px;
 }
 .three_container_div{
     width: 81%;
@@ -175,12 +158,9 @@ body{
 }
 .three_container_div > h1{
     color: var(--Branco-Rock, #F6F6F6);
-    font-family: Helvetica Now Display;
     font-size: 48px;
     font-style: normal;
     font-weight: 800;
-    line-height: 150%; /* 72px */
-    letter-spacing: -0.528px;
 }
 .three_container{
     width: 100%;
@@ -198,29 +178,25 @@ body{
 .three_container_left_text > h1{
     color: #FFF;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    font-family: Helvetica Now Display;
     font-size: 32px;
     font-style: normal;
     font-weight: 500;
-    line-height: 150%; /* 48px */
-    letter-spacing: -0.352px;
 }
 .three_container_left_text > p{
     color: var(--G2, #797979);
-    font-family: Helvetica Now Display;
     font-size: 16px;
     font-style: normal;
     font-weight: 300;
-    line-height: 150%; /* 24px */
-    letter-spacing: -0.176px;
 }
 .three_container_right{
+    width: 260px;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 .three_container_right_top{
+    height: 260px;
     border-radius: 16px;
     background: #020202;
     padding-bottom: 12px
@@ -230,26 +206,24 @@ body{
     flex-direction: column;
     gap: 4px;
     padding-left: 12px;
+    position: relative;
+    top: -45px;
 }
 .three_container_right_top_text > h1{
     color: #FFF;
-    font-family: Helvetica Now Display;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
-    line-height: 150%; /* 19.5px */
-    letter-spacing: -0.143px;
+    width: 191px;
 }
 .three_container_right_top_text > p{
     color: var(--G2, #797979);
-    font-family: Helvetica Now Display;
     font-size: 12px;
     font-style: normal;
     font-weight: 300;
-    line-height: 150%; /* 18px */
-    letter-spacing: -0.132px;
 }
 .three_container_right_bottom{
+    height: 260px;
     border-radius: 16px;
     background: #020202;
     padding-bottom: 12px
@@ -259,30 +233,28 @@ body{
     display: flex;
     flex-direction: column;
     gap: 4px;
+    position: relative;
+    top: -55px;
 }
 .three_container_right_bottom_text > h1{
     color: #FFF;
-    font-family: Helvetica Now Display;
     font-size: 13px;
     font-style: normal;
     font-weight: 500;
-    line-height: 150%; /* 19.5px */
-    letter-spacing: -0.143px;
+    width: 191px;
 }
 .three_container_right_bottom_text > p{
     color: var(--G2, #797979);
-    font-family: Helvetica Now Display;
     font-size: 12px;
     font-style: normal;
     font-weight: 300;
-    line-height: 150%; /* 18px */
-    letter-spacing: -0.132px;
 }
 .yellow_container{
     width: 81%;
     height: 535px;
     margin-top: 112px;
-    background-image: url(./images/Background_Buynow.svg);
+    border-radius: 16px;
+    background: url(./images/Background_Buynow.svg), lightgray 50%;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -299,23 +271,17 @@ body{
 }
 .yellow_container_logo > h1{
     color: var(--Rectangle-1, #020202);
-    font-family: Helvetica Now Display;
     font-size: 41.574px;
     font-style: normal;
     font-weight: 800;
-    line-height: 120%; /* 49.889px */
-    letter-spacing: -0.457px;
     width: 50px;
 }
 .yellow_container_left_side > h1{
     margin-top: 32px;
     color: var(--Rectangle-1, #020202);
-    font-family: Helvetica Now Display;
     font-size: 32px;
     font-style: normal;
     font-weight: 500;
-    line-height: 150%; /* 48px */
-    letter-spacing: -0.352px;
 }
 .yellow_container_left_side > button{
     width: 260px;
@@ -327,12 +293,9 @@ body{
     box-shadow: 0px 4px 16px 1px rgba(0, 0, 0, 0.32);
     color: var(--Rectangle-1, #020202);
     text-align: center;
-    font-family: Helvetica Now Display;
     font-size: 20px;
     font-style: normal;
     font-weight: 800;
-    line-height: 150%; /* 30px */
-    letter-spacing: -0.22px;
 }
 .bottom_container{
     margin-top: 95px;
@@ -365,21 +328,15 @@ body{
 }
 .bottom_container_left_side_text_heading > h1{
     color: var(--G1, #B1B1B1);
-    font-family: Helvetica Now Display;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 150%; /* 24px */
-    letter-spacing: -0.176px;
 }
 .bottom_container_left_side_text > p{
     color: var(--G1, #B1B1B1);
-    font-family: Helvetica Now Display;
     font-size: 13px;
     font-style: normal;
     font-weight: 300;
-    line-height: 150%; /* 19.5px */
-    letter-spacing: -0.143px;
 }
 .bottom_container_right_side{
     display: flex;
